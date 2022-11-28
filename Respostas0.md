@@ -5,13 +5,9 @@
 ##Exercício 1:
 =
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio(a,b,cin,cout,s);
+<br>
   input a,b,cin;
   <br>
   output cout,s;
