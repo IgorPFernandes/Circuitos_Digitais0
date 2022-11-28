@@ -22,20 +22,15 @@ endmodule
 =
 
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio( a, b, c, z );
-  // Declaração de portas
+<br>
   input a, b, c;
+  <br>
   output z;
-
-  // Fluxo de dados
+  <br>
   assign z = (b & ~a) | (a | ~c) | (~b & c);
-
+<br>
 endmodule
 
 ##Exercício 3:
