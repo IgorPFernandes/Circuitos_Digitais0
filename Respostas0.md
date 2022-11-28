@@ -37,36 +37,36 @@ endmodule
 =
 
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio(izero,a,ione,q);
+<br>
   input ione,izero,a;
+  <br>
   output q;
+  <br>
 
   assign q = ((a~&a) ~& ione) ~& (a~&izero)); 
+  <br>
 
 endmodule
 
 ##Exercício 4:
 =
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio(a,b,c,d,e);
+<br>
   input a,b;
+  <br>
   output c,d,e;
+  <br>
 
   assign c = (~a&b);
+  <br>
   assign d = (~a&b)~|(a&~b);
+  <br>
   assign e = (a&~b);
+  <br>
 
 endmodule
 
@@ -74,17 +74,16 @@ endmodule
 =
 
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio(a,b,s);
+<br>
   input [3:0] a,b;
+  <br>
   output [3:0] s;
+  <br>
 
   assign s = (a + b);
+  <br>
 
 endmodule
 
@@ -92,19 +91,20 @@ endmodule
 =
 
 %%file exercicio.sv
-
-/*
-
-Módulo exercicio
-
-*/
+<br>
 module exercicio(a,b,c,d,e);
+<br>
   input [3:0] a,b;
+  <br>
   output [3:0] c,d,e;
+  <br>
 
   assign c = a > b;
+  <br>
   assign d = a = b;
+  <br>
   assign e = a < b;
+  <br>
 
 endmodule
 
