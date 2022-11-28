@@ -13,9 +13,11 @@ Módulo exercicio
 */
 module exercicio(a,b,cin,cout,s);
   input a,b,cin;
+  <br>
   output cout,s;
 
   assign s = (a ^ b) ^ cin;
+  <br>
   assign cout = (a & b) | (b & c) | (a & c);
 
 endmodule
