@@ -88,14 +88,34 @@ Módulo exercicio
 
 */
 module exercicio(a,b,s);
-  input a,b;
-  output s;
+  input [3:0] a,b;
+  output [3:0] s;
 
   assign s = (a + b);
 
 endmodule
 
 ##Exercício 6:
+=
+
+%%file exercicio.sv
+
+/*
+
+Módulo exercicio
+
+*/
+module exercicio(a,b,c,d,e);
+  input [3:0] a,b;
+  output [3:0] c,d,e;
+
+  assign c = a > b;
+  assign d = a = b;
+  assign e = a < b;
+
+endmodule
+
+##Exercício 7:
 =
 
 
