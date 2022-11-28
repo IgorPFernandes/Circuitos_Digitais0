@@ -111,4 +111,18 @@ endmodule
 ##Exercício 7:
 =
 
+%%file exercicio.sv
+
+<br>
+module exercicio(a,b,sel,y);
+<br>
+  intput a,b,sel;
+  <br>
+  output y;
+  <br>
+
+  assign y = sel ? a:b;
+  <br>
+
+endmodule
 
